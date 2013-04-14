@@ -480,6 +480,18 @@ hr {
 	font-style: normal;
 }
 
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('fonts/BebasNeue-webfont.eot');
+    src: url('fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/BebasNeue-webfont.woff') format('woff'),
+         url('fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .genericon:before,
 .menu-toggle:after,
 .featured-post:before,
@@ -829,6 +841,7 @@ img.wp-smiley,
 }
 
 .site-title {
+	font-family: BebasNeueRegular;
 	font-size: 60px;
 	font-weight: bold;
 	line-height: 1;
@@ -869,7 +882,7 @@ div.nav-menu > ul {
 .nav-menu li a {
 	color: #fffbdb;
 	display: block;
-	font-size: 15px;
+	font-size: 15px;	
 	line-height: 1;
 	padding: 15px 20px;
 	text-decoration: none;
@@ -1073,6 +1086,7 @@ ul.nav-menu li:hover > ul,
 }
 
 .entry-title {
+	font-family: BebasNeueRegular;
 	font-weight: normal;
 	margin: 0 0 5px;
 }
@@ -2682,10 +2696,10 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: #e8e5ce;
 	color: #686758;
 	font-size: 14px;
 	text-align: center;
+	background: url('images/textured_paper.png') repeat;
 }
 
 .site-footer .widget-area,
@@ -2698,7 +2712,6 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: #41484c;
 	padding: 20px 0;
 }
 
