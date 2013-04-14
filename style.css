@@ -1,9 +1,9 @@
 /*
-Theme Name: Twenty Thirteen
-Theme URI: http://wordpress.org/extend/themes/twentythirteen
-Author: the WordPress team
-Author URI: http://wordpress.org/
-Description: The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a gorgeous color scheme and matching header images, optional display fonts for beautiful typography, and a wide layout that looks great on large screens yet remains device-agnostic and is readable on any device.
+Theme Name: V8
+Theme URI: http://viii.in
+Author: Vinay Raghu
+Author URI: http://viii.in/
+Description: Wordpress 3.6, taking a beta to production. Very clever.
 Version: 0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -776,6 +776,7 @@ img.wp-smiley,
 }
 
 .site-main {
+	background: url('images/textured_paper.png') repeat;
 	position: relative;
 }
 
@@ -3224,7 +3225,9 @@ footer.entry-meta {
 	(-o-min-device-pixel-ratio: 5/4),
 	(-webkit-min-device-pixel-ratio: 1.25),
 	(min-resolution: 120dpi) {
-
+	.site-main {
+		background: url('images/textured_paper@2X.png') repeat;
+	}
 	.site-header .searchform [type="search"],
 	.site-header .searchform [type="text"] {
 		background-image: url(images/search-icon-2x.png);
