@@ -1038,6 +1038,10 @@ ul.nav-menu li:hover > ul,
 	width: 100%;
 }
 
+.entry-content{
+	font: italic 1.2em georgia;
+	line-height: 1.4em;
+}
 .sidebar .entry-header,
 .sidebar .entry-content,
 .sidebar .entry-summary,
@@ -3192,6 +3196,11 @@ footer.entry-meta {
 	.search .format-gallery .gallery-item:nth-of-type(odd),
 	.single .gallery .gallery-item:nth-of-type(even) {
 		margin-right: 0;
+	}
+
+	.entry-content{
+		font-size: 0.8em;
+		line-height: 1.4em;
 	}
 
 	/* Comments */
